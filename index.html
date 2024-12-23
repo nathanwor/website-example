@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Portfolio of Hovhannes Mikayelyan, AWS Instructor and Certified Cloud Engineer specializing in DevOps and automation." />
+    <meta name="author" content="Hovhannes Mikayelyan" />
+    <meta name="keywords" content="DevOps, Hovhannes Mikayelyan, portfolio, technology, automation, AWS, cloud, CI/CD, certified cloud engineer, AWS instructor" />
+
+    <title>Hovhannes Mikayelyan - DevOps Engineer | AWS Instructor | AWS UG Armenia Core Team Member</title>
+
+    <!-- Add SEO meta tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Open Graph Tags for social sharing -->
+    <meta property="og:title" content="Hovhannes Mikayelyan - DevOps Engineer | AWS Instructor | AWS UG Armenia Core Team Member" />
+    <meta property="og:description" content="Portfolio of Hovhannes Mikayelyan, AWS Instructor and Certified Cloud Engineer specializing in DevOps and automation." />
+    <meta property="og:image" content="https://mikayelyan.uk/assets/img/profpic.JPG" />
+    <meta property="og:url" content="https://mikayelyan.uk/" />
+    <meta property="og:site_name" content="Hovhannes Mikayelyan Portfolio" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card for social sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hovhannes Mikayelyan - DevOps Engineer | AWS Instructor | AWS UG Armenia Core Team Member" />
+    <meta name="twitter:description" content="Portfolio of Hovhannes Mikayelyan, AWS Instructor and Certified Cloud Engineer specializing in DevOps and automation." />
+    <meta name="twitter:image" content="https://mikayelyan.uk/assets/img/profpic.JPG" />
+
+    <!-- Structured Data (Schema.org) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Hovhannes Mikayelyan",
+      "jobTitle": "DevOps Engineer | AWS Instructor | AWS UG Armenia Core Team Member",
+      "url": "https://mikayelyan.uk/",
+      "sameAs": [
+        "https://www.linkedin.com/in/hovhannesmikayelyan",
+        "https://github.com/hovhannesmikayelyan"
+      ]
+    }
+    </script>
+
+    <!-- Add favicon -->
+    <link rel="icon" type="image/x-icon" href="https://mikayelyan.uk/assets/img/favicon.ico" />
+
+    <!-- FontAwesome for icons -->
+    <script src="https://use.fontawesome.com/828778a4e5.js"></script>
+
+    <!-- Material Design Icons -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link href="css/page.css" rel="stylesheet" />
+</head>
+
+
+<body id="body" class="theme--dark">
+    <input id="menu" type="checkbox">
+    <input id="night" type="checkbox">
+    <div id="container">
+        <div class="header">
+            <div class="logo"></div>
+            <label class="night-mode" for="night" onclick="enableNight()">
+                <i class="fa fa-moon-o"></i>
+            </label>
+        </div>
+        <section class="left-section">
+            <img class="profile-pic" src="https://mikayelyan.uk/assets/img/profpic.JPG" />
+
+            <div class="profile-detail">
+                <span class="profile-maps">
+                    <i class="material-icons">room</i>
+                    Yerevan, Armenia
+                </span>
+                <p class="profile-name">Hovhannes Mikayelyan</p>
+                <span class="profile-summary"> DevOps Engineer | AWS Instructor | AWS UG Armenia Core Team Member </span>
+            </div>
+
+            <div class="profile-pils">
+                <span class="pils"><a href="portfolio.html"><i class="fa fa-link"></i>
+                        Portfolio</a></span>
+                <span class="pils"><a href="https://www.linkedin.com/in/hovmikayelyan/"
+                        target="_blank"><i class="fa fa-linkedin"></i> Linkedin</a></span>
+                <span class="pils"><a href="https://www.youtube.com/@hovmikayelyan" target="_blank"><i class="fa fa-youtube"></i>
+                        YouTube</a></span>
+            </div>
+        </section>
+        <div class="front-smooth"></div>
+    </div>
+
+
+    <script type="text/javascript">
+        let enableNight = () => {
+            var body = document.getElementById("body");
+
+            if (body.classList.contains('theme--light')) {
+                body.classList.remove('theme--light');
+                body.classList.add('theme--dark');
+            } else {
+                body.classList.remove('theme--dark');
+                body.classList.add('theme--light');
+            }
+        }
+    </script>
+</body>
+
+</html>
